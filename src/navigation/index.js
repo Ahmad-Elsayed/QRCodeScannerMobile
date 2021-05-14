@@ -23,7 +23,7 @@ export default function RootNavigation() {
         <Stack.Screen
           name={mainRoutes.qrCodeScanner}
           component={QRScanner}
-          options={{ title: 'Scanner' }}
+          options={{ headerShown: false }}
         />
       </Stack.Navigator>
     </NavigationContainer>
