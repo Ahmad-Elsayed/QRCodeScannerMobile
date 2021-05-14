@@ -14,7 +14,6 @@ const QRScanner = () => {
     setWebUrl(e.data);
   };
   const { goBack } = useNavigation();
-  dispatch(incrementCounter(10));
 
   return webUrl ? (
     <WebView
