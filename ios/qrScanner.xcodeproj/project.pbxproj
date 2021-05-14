@@ -460,7 +460,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = qrScannerValeo;
+				PRODUCT_BUNDLE_IDENTIFIER = "com-qrScanner-Valeo";
 				PRODUCT_NAME = qrScanner;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -486,7 +486,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = qrScannerValeo;
+				PRODUCT_BUNDLE_IDENTIFIER = "com-qrScanner-Valeo";
 				PRODUCT_NAME = qrScanner;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
