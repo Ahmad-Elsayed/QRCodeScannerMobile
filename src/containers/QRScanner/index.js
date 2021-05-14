@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import styles from './styles';
+import { useNavigation } from '@react-navigation/native';
 import QRCodeScanner from 'react-native-qrcode-scanner';
 import { WebView } from 'react-native-webview';
 import { useDispatch } from 'react-redux';
 import { incrementCounter } from 'src/store/actions/counter';
-import { useNavigation } from '@react-navigation/native';
+import styles from './styles';
 
 const QRScanner = () => {
   const [webUrl, setWebUrl] = useState('');
